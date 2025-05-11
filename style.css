@@ -1,0 +1,5 @@
+.container {
+    & .container__left {
+        background-image: url("/images/banner-image.jpg");
+    }
+}

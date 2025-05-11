@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Odin Sign-up Form</title>
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__left">
+                <img
+                    class="logo"
+                    src="/images/logo.png"
+                    alt="Odin Logo"
+                />
+                <legend class="photo-credit">
+                    Photo de
+                    <a
+                        href="https://unsplash.com/fr/@raellego?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Raelle Gann-Owens</a
+                    >
+                    sur
+                    <a
+                        href="https://unsplash.com/fr/photos/un-groupe-darbres-en-pot-y4U11gGOjcE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Unsplash</a
+                    >
+                </legend>
+            </div>
+            <div class="container__right">
+                <p>
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams.
+                    <br />
+                    Sign up <i>now</i> to get started.
+                    <br />
+                    <br />
+                    Your <i>know</i> you want to.
+                </p>
+                <form action="">
+                    <fieldset class="name">
+                        <label for="first_name">
+                            First name
+                            <input
+                                type="text"
+                                name="first_name"
+                                id="first_name"
+                                required
+                            />
+                        </label>
+                        <label for="Last_name">
+                            Last name
+                            <input
+                                type="text"
+                                name="last_name"
+                                id="last_name"
+                                required
+                            />
+                        </label>
+                    </fieldset>
+                    <fieldset class="contact">
+                        <label for="email">
+                            Email
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </label>
+                        <label for="tel">
+                            Phone number
+                            <input
+                                type="tel"
+                                name="tel"
+                                id="tel"
+                            />
+                        </label>
+                    </fieldset>
+                    <fieldset class="password">
+                        <label for="password">
+                            Password
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                required
+                            />
+                        </label>
+                        <label for="password_confirm">
+                            Confirm Password
+                            <input
+                                type="password"
+                                name="password_confirm"
+                                id="password_confirm"
+                                required
+                            />
+                        </label>
+                    </fieldset>
+
+                    <input
+                        type="submit"
+                        value="Create Account"
+                    />
+                </form>
+                <p>
+                    Already have an account?
+                    <a href="#"> Log in </a>
+                </p>
+            </div>
+        </div>
+        <h1 class="test">Hello World</h1>
+    </body>
+</html>
