@@ -54,7 +54,7 @@ figure .photo-credit {
     background-color: rgb(240, 240, 225);
 
     & .container__left {
-        background-image: url("/images/banner-image.jpg");
+        background-image: url("./images/banner-image.jpg");
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
