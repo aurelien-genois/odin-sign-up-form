@@ -1,4 +1,4 @@
-# odin-landing-page
+# odin-sign-up-page
 
 <h2 align="center"><a  href="https://aurelien-genois.github.io/odin-sign-up-form/">Live Demo</a></h2>
 
